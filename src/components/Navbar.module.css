@@ -66,16 +66,7 @@ body {
   transition: color 0.3s ease;
 }
 
-.navLinks li a:hover {
-  color: #ff0000;
-  /* text-decoration: wavy;
-  text-decoration-thickness: 1.5px;
-  text-decoration-style: wavy; */
-}
-.navLinks2 li a:hover {
-  color: #ff0000;
 
-}
 
 @media (max-width: 1000px) {
   .navbar {
