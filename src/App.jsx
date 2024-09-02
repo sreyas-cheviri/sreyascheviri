@@ -4,11 +4,13 @@ import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import Work from "./pages/Work"; // Import the WorkPage component
 import ContactFooter from "./components/ContactFooter";
+import WIP from "./components/WIP";
 
 function App() {
   return (
     <Router>
       <div>
+        <WIP/>
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
