@@ -1,0 +1,20 @@
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* Background of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #494848; /* Color of the draggable part */
+  border-radius: 2px; /* Rounded corners for the scrollbar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #949494; /* Darker color on hover */
+}
+
+html {
+  scroll-behavior: smooth;
+}

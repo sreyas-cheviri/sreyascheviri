@@ -1,0 +1,216 @@
+/* Container for the top section with relative positioning */
+.topSection {
+  background-color: rgb(28, 27, 27);
+  color: white;
+  padding: 20px 20px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  text-align: justify;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative; /* Make the container relative for absolute positioning of Earth and star */
+  overflow: hidden; /* Hide overflow to keep the layout clean */
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  
+}
+
+
+.description {
+  line-height: 1;
+  font-size: 1rem;
+  text-align: left;
+  padding-bottom: 30px;
+  position: relative; /* Ensure text stays on top of the Earth image */
+}
+
+/* Earth image styles */
+.earthContainer {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust to position it appropriately */
+  width: 40px; /* Adjust size as needed */
+  height: 40px;
+  z-index: 1; /* Ensure it's behind the text */
+}
+
+.earthContainer2 {
+  position: absolute;
+  opacity: 50%;
+  top: 12em; /* Adjust as needed */
+  left: 5em; /* Adjust to position it appropriately */
+  width: 16px; /* Adjust size as needed */
+  height: 16px;
+  z-index: 1; /* Ensure it's behind the text */
+}
+
+.earthImage {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%; /* Optional: Make it circular */
+  animation: rotate 30s linear infinite;
+}
+
+.earthImage:hover {
+  animation: rotate 1s linear infinite;
+  transform: scale(10.6);
+  cursor: pointer;
+}
+
+/* Keyframes for rotating animation */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.contentSection {
+  /* margin-top: 100px; */
+  margin-top: 350px ;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 1200px;
+  margin-right: 50%px;
+  margin-left: 50%px;
+}
+
+.textContainer {
+  box-sizing: border-box;
+  flex: 1;
+  width: 100%;
+  background-color: white;
+  padding: 1rem;
+  /* order: 2; */
+  color: black;
+  /* border: .5px solid white; */
+ border-radius: 3px;
+}
+
+
+.contentText {
+  font-size: 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.image {
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+  width: 100%;
+  height: auto;
+  border: none;
+  margin-bottom: 6px; /* Space between image and text on small screens */
+  order: 1; /* Ensure image appears above text on small screens */
+}
+
+/* Media Queries for larger screens */
+@media (min-width: 768px) {
+  .topSection {
+    background-color: rgb(28, 27, 27);
+    color: white;
+    /* padding: 20px 200px; */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    position: relative; /* Make the container relative for absolute positioning of Earth and star */
+    overflow: hidden; /* Hide overflow to keep the layout clean */
+  }
+
+  .contentSection {
+    flex-direction: row; /* Side by side on larger screens */
+    justify-content: space-between;
+    /* margin-top: 100px; */
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .earthContainer2 {
+    position: absolute;
+    top: 14em; /* Adjust as needed */
+    left: 20em; /* Adjust to position it appropriately */
+    width: 30px; /* Adjust size as needed */
+    height: 30px;
+    z-index: 1; /* Ensure it's behind the text */
+  }
+  .textContainer {
+    width: 50%;
+    /* margin-right: 1rem; */
+    order: 0;
+    margin-top: 0;
+    border-radius: 3px;
+  }
+
+  .image {
+    width: 50%;
+    margin-bottom: 0;
+    order: 0;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+  }
+  .earthContainer {
+    position: absolute;
+    top: 50px; /* Adjust as needed */
+    right: 220px; /* Adjust to position it appropriately */
+    width: 60px; /* Adjust size as needed */
+    height: 60px;
+    z-index: 1; /* Ensure it's behind the text */
+  }
+  .heading {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  .contentText {
+    font-size: 1.2rem;
+  }
+}
+
+/* Media Queries for extra-large screens */
+@media (min-width: 1000px) {
+  .topSection {
+    padding: 20px 200px;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .description {
+    font-size: 1.5rem;
+  }
+
+  .earthContainer2 {
+    position: absolute;
+    top: 14em; /* Adjust as needed */
+    left: 50em; /* Adjust to position it appropriately */
+    width: 30px; /* Adjust size as needed */
+    height: 30px;
+    z-index: 1; /* Ensure it's behind the text */
+  }
+  .contentSection {
+    padding: 20px 200px;
+  }
+  .image {
+    /* width: 100%; */
+    height: 100%;
+  }
+  .contentText {
+    font-size: 1.5rem;
+  }
+}

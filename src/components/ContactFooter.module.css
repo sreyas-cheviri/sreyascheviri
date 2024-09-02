@@ -1,0 +1,59 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  /* position: fixed; */
+  /* margin: 0 0.4rem; */
+  background: linear-gradient(to top, #000000, rgb(28, 27, 27));
+}
+
+.heading {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 2px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100;
+}
+
+/* Social links container */
+.socialLinks {
+  display: flex;
+  gap: 10rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* Individual icon links */
+.iconLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(171, 169, 169); /* Greyish color for icons */
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s;
+}
+
+/* Icon styles */
+.icon {
+  font-size: 2.8rem; /* Small size for icons */
+}
+
+/* Hover effects */
+.iconLink:hover {
+  color: #ffffff; /* Light glow effect on hover */
+  transform: scale(1.2); /* Slightly scale up on hover */
+}
+
+@media (max-width: 1000px) {
+  .icon {
+    font-size: 2.6rem;
+  }
+  .socialLinks {
+    display: flex;
+    gap: 1.7rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
