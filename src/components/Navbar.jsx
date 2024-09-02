@@ -6,13 +6,14 @@ function Navbar() {
     <nav className={styles.navbar}>
       <ul className={styles.navLinks}>
         <li>
-          <a href="/">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
           <a
             href="https://drive.google.com/file/d/1Xdl0Ydf-IZON08MtueXrn-huONFYDNAZ/view?usp=drive_link"
             target="blank"
-          >Resume
+          >
+            Resume
           </a>
         </li>
       </ul>
