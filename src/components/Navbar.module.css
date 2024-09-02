@@ -26,6 +26,23 @@ body {
   font-size: 1.2em;
 
 }
+.navbar ul{
+  align-items: center;
+}
+.navbar a{
+  border: solid 1px white;
+  padding:6px;
+  border-radius: 4px;
+  
+}
+.navbar li{
+  /* width: 100px; */
+}
+.navbar a:hover{
+  background: white;
+  color: #000000;
+
+}
 .navLinks2 {
 
   list-style: none;
@@ -36,7 +53,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2em;
-  text-align: right;
+  text-align: justify;
 
 
 }
@@ -77,11 +94,11 @@ body {
   .navLinks {
     margin: 0%;
     gap: 1rem; /* Maintain spacing between items */
-    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    /* overflow-x: auto; Allow horizontal scrolling if needed */
   }
   .navLinks2 {
     margin: 0%;
-    gap: 1rem; /* Maintain spacing between items */
-    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    gap: 1rem; 
+    /* overflow-x: auto; Allow horizontal scrolling if needed */
   }
 }

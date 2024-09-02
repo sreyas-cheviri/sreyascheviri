@@ -17,6 +17,19 @@ function Navbar() {
           </a>
         </li>
       </ul>
+      <ul className={styles.navLinks}>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a
+            href="#contact"
+            target="blank"
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
 
       <ul className={styles.navLinks2}>
         <li>

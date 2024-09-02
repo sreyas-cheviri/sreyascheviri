@@ -12,7 +12,7 @@ import styles from "./ContactFooter.module.css";
 
 function ContactFooter() {
   return (
-    <footer className={styles.footer}>
+    <footer id="contact"className={styles.footer}>
       {/* <h2 className={styles.heading}>CONTACT</h2> */}
       <div className={styles.socialLinks}>
         <a
