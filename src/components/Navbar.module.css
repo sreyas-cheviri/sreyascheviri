@@ -9,7 +9,7 @@ body {
   background: linear-gradient(to bottom, #000000, rgb(28, 27, 27));
   color: rgb(255, 255, 255);
   padding: 10px 222px;
-  border-bottom: 0.1px solid rgb(241, 241, 241,.5);
+  /* border-bottom: 0.1px solid rgb(241, 241, 241,.5); */
   /* border-width: ; */
   
   
@@ -30,7 +30,7 @@ body {
   align-items: center;
 }
 .navbar a{
-  border: solid 1px white;
+  /* border: solid 1px white; */
   border-radius: 4px;
   display: inline-block;  /* Ensures the width and height properties are respected */
   width: 90px;  /* Set the width you want */
@@ -38,8 +38,10 @@ body {
   line-height: 40px;  /* Vertically center text */
   text-align: center;  /* Horizontally center text */
   text-decoration: none;  /* Remove underline */
-  color: #000;  /* Text color */
+  /* color: #000;  Text color */
   box-sizing: border-box;
+  background: #3f3f3f;
+  box-shadow:  5px 5px 19px rgba(0, 0, 0, 0.3);
   
 }
 .navbar li{
