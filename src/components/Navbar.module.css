@@ -9,7 +9,7 @@ body {
   background: linear-gradient(to bottom, #000000, rgb(28, 27, 27));
   color: rgb(255, 255, 255);
   padding: 10px 222px;
-  border-bottom: 0.1px solid rgb(241, 241, 241);
+  border-bottom: 0.1px solid rgb(241, 241, 241,.5);
   /* border-width: ; */
   
   
