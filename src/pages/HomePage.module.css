@@ -1,10 +1,16 @@
 /* Container for the top section with relative positioning */
 .topSection {
-  background-color: rgb(28, 27, 27);
+  background-color: #5b5b5b;
+  background-image: linear-gradient(302deg, #5b5b5b 12%, #171717 68%);
+  
+  
+
   color: white;
   padding: 20px 20px;
   margin-top: 20px;
-  margin-bottom: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 100vh;
   text-align: justify;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -16,9 +22,7 @@
   font-size: 2rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  
 }
-
 
 .description {
   line-height: 1;
@@ -72,14 +76,12 @@
 }
 
 .contentSection {
-  /* margin-top: 100px; */
-  margin-top: 350px ;
+  margin-left: 20px;
+  margin-right: 20px;
   display: flex;
   flex-direction: column;
   padding: 20px;
   max-width: 1200px;
-  margin-right: 50%px;
-  margin-left: 50%px;
 }
 
 .textContainer {
@@ -88,12 +90,9 @@
   width: 100%;
   background-color: white;
   padding: 1rem;
-  /* order: 2; */
   color: black;
-  /* border: .5px solid white; */
- border-radius: 3px;
+  border-radius: 3px;
 }
-
 
 .contentText {
   font-size: 1rem;
