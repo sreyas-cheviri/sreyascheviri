@@ -4,6 +4,9 @@
   justify-content: space-around;
   padding: 30px 190px;
   height: 100vh;
+  margin: 20px;
+  background-image: linear-gradient(302deg, #5b5b5b 12%, #171717 68%);
+  border-radius: 5px;
 }
 
 .projectBox {

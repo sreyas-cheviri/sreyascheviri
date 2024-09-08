@@ -13,7 +13,8 @@ import styles from "./ContactFooter.module.css";
 function ContactFooter() {
   return (
     <footer id="contact"className={styles.footer}>
-      {/* <h2 className={styles.heading}>CONTACT</h2> */}
+     
+    
       <div className={styles.socialLinks}>
         <a
           href="https://github.com/sreyas-cheviri"
@@ -50,6 +51,9 @@ function ContactFooter() {
         <a href="mailto:sreyascheviri@gmail.com" className={styles.iconLink}>
           <FontAwesomeIcon icon={faEnvelope} className={styles.icon} />
         </a>
+      </div>
+      <div className={styles.bigtxt}>
+        <h1 >CONTACT</h1>
       </div>
     </footer>
   );
