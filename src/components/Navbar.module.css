@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
 body {
   margin: 0 ;
   background-color: rgb(28, 27, 27);
@@ -8,7 +13,7 @@ body {
   align-items: center;
   background: linear-gradient(to bottom, #000000, rgb(28, 27, 27));
   color: rgb(255, 255, 255);
-  padding: 10px 222px;
+  padding: 70px 222px 40px 222px;
   /* border-bottom: 0.1px solid rgb(241, 241, 241,.5); */
   /* border-width: ; */
   
@@ -21,10 +26,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.2em;
-
+  /* font-weight: 700; */
 }
 .navbar ul{
   align-items: center;
@@ -38,15 +42,13 @@ body {
   line-height: 40px;  /* Vertically center text */
   text-align: center;  /* Horizontally center text */
   text-decoration: none;  /* Remove underline */
-  /* color: #000;  Text color */
+  /* padding: 10px; */
   box-sizing: border-box;
   background: #3f3f3f;
   box-shadow:  5px 5px 19px rgba(0, 0, 0, 0.3);
   
 }
-.navbar li{
-  /* width: 100px; */
-}
+
 .navbar a:hover{
   background: white;
   color: #000000;
@@ -59,8 +61,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.2em;
   text-align: justify;
 
@@ -96,7 +97,7 @@ body {
 
 @media (max-width: 1000px) {
   .navbar {
-    padding: 20px 40px;
+    padding: 70px 40px 40px 40px;
     font-size: 1.1em; /* Adjust padding for smaller screens */
   }
 

@@ -46,7 +46,7 @@ function Navbar() {
         <li>
           <a
             href="#contact"
-            target="blank"
+            // target="blank"
           >
             Contact
           </a>
