@@ -5,9 +5,9 @@ import earthImage from "../assets/earth.svg";
 
 function HomePage() {
   return (
-    <div>
-      <section className={styles.topSection}>
-        <h1 className={styles.heading}>Sreyas Cheviri</h1>
+    <div  className={styles.topdiv}>
+      <section  className={styles.topSection}>
+        <h1  className={styles.heading}>Sreyas Cheviri</h1>
 
         <div className={styles.earthContainer}>
           <img src={earthImage} alt="Star" className={styles.earthImage} />
@@ -15,7 +15,7 @@ function HomePage() {
         <p className={styles.description}>
           Welcome to My Corner of the Internet!
           <br />
-          <br />I love building things made of pixels.
+          <br />I love building things.
         </p>
         <div className={styles.earthContainer2}>
           <img src={earthImage} alt="Star" className={styles.earthImage} />

@@ -10,8 +10,8 @@ function App() {
   return (
     <Router>
       <div>
-        <WIP/>
-        <Navbar />
+        < WIP />
+        <Navbar  />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/work" element={<Work />} />

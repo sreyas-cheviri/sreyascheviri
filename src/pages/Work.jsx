@@ -54,7 +54,7 @@ function WorkPage() {
   ];
 
   return (
-    <div>
+    <div className={styles.topdiv}>
       <div className={styles.workContainer}>
         {projects.map((project) => (
           <div key={project.id} className={`${styles.projectBox} ${styles[`project-${project.id}`]}`}>
