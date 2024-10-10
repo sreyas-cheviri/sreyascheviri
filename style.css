@@ -1,0 +1,93 @@
+body{
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 712px;
+    margin: 0 auto 0 auto;
+    padding: 55px;
+    background: #0f0f0f;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.812);
+}
+
+header{
+    display: flex;
+    gap: 20px;
+
+}
+h1 {
+    font-size: 24px;
+    line-height: 0;
+  }
+
+nav a{
+    color: rgb(129, 128, 128);
+    text-underline-offset: 8px;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+nav{
+    font-size: medium;
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+section {
+    line-height: 1.4;
+    margin: 50px 0;
+  }
+  ul {
+    list-style:none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+ul li span {
+  color: rgb(0, 0, 0);
+  background-color:rgb(107, 107, 107);
+  padding: 8px;
+  font-weight: 500;
+  border-radius: 5px;
+  text-underline-offset: 6px;
+  
+}
+.experience li{
+ padding: 5px 0px ;
+}
+.projects a {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-decoration: none;
+}
+.projects span{
+    text-decoration: none;
+    color: rgb(190, 187, 187);
+}
+.projects span:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+#contact  a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    gap: 10px;
+}
+#contact li{
+    display: flex;
+    gap: 14px;
+}
+.projects li{
+    background-color:rgb(107, 107, 107);
+    padding: 8px;
+    border-radius: 5px;
+    color: #000000;
+    font-weight: 500;
+}
