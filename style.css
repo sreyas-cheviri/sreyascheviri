@@ -32,7 +32,7 @@ nav{
     font-size: medium;
     margin-top: 20px;
     display: flex;
-    gap: 25px;
+    gap: 12px;
     align-items: center;
 }
 section {
@@ -50,7 +50,7 @@ ul li {
 ul li span {
   color: rgb(0, 0, 0);
   background-color:rgb(107, 107, 107);
-  padding: 8px;
+  padding: 5px;
   font-weight: 500;
   border-radius: 5px;
   text-underline-offset: 6px;
@@ -90,4 +90,23 @@ ul li span {
     border-radius: 5px;
     color: #000000;
     font-weight: 500;
+}
+
+@media only screen and (max-width: 450px) {
+    nav{
+        margin-right: 40px;
+    }
+    h1 {
+        font-size: 20px;
+        line-height: 0;
+      }
+      nav{
+        font-size: medium;
+        margin-top: 20px;
+        display: flex;
+        gap: 12px;
+        /* font-size: medium; */
+        
+        align-items: center;
+    }
 }
