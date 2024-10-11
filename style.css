@@ -2,8 +2,8 @@ body{
     padding: 0;
     box-sizing: border-box;
     max-width: 712px;
-    margin: 55px auto 55px auto;
-    padding: 55px;
+    margin: 10px auto 10px auto;
+    padding: 50px 20px 50px 20px;
     background: #0f0f0f;
     font-family: sans-serif;
     color: rgba(255, 255, 255, 0.812);
