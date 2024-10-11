@@ -54,16 +54,23 @@ ul li {
 }
 ul li span {
   color: rgb(0, 0, 0);
-  background-color:rgb(107, 107, 107);
+  background-color:rgb(154, 153, 153);
   padding: 5px;
+  margin-right: 5px;
   font-weight: 500;
   border-radius: 5px;
-  text-underline-offset: 6px;
+  font-size: medium;
+  width: 50%;
+  font-weight:300;
   
 }
 .experience li{
  padding: 5px 0px ;
+ font-size: small;
+ display: flex;
+ justify-content: space-between;
 }
+
 .projects a {
   color: rgb(0, 0, 0);
   font-weight: bold;
@@ -71,7 +78,7 @@ ul li span {
 }
 .projects span{
     text-decoration: none;
-    color: rgb(190, 187, 187);
+    background-color:rgb(154, 153, 153);
 }
 .projects span:hover{
     text-decoration: none;
@@ -93,7 +100,7 @@ ul li span {
    color: rgba(185, 33, 33, 0.818);
 }
 .projects li{
-    background-color:rgb(107, 107, 107);
+    background-color:rgb(154, 153, 153);
     padding: 8px;
     border-radius: 5px;
     color: #000000;
