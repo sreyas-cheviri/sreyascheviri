@@ -89,6 +89,9 @@ ul li span {
     display: flex;
     gap: 14px;
 }
+#contact li:hover{
+   color: rgba(185, 33, 33, 0.818);
+}
 .projects li{
     background-color:rgb(107, 107, 107);
     padding: 8px;
