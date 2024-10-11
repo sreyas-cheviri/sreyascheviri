@@ -53,22 +53,18 @@ ul li {
     margin: 0.5rem 0;
 }
 ul li span {
-  color: rgb(0, 0, 0);
-  background-color:rgb(154, 153, 153);
-  padding: 5px;
-  margin-right: 5px;
-  font-weight: 500;
-  border-radius: 5px;
-  font-size: medium;
-  width: 50%;
-  font-weight:300;
-  
+    background-color:rgb(154, 153, 153);
+    padding: 8px;
+    border-radius: 5px;
+    color: #000000;
+    font-weight: 500;
+    font-size: medium;
 }
 .experience li{
- padding: 5px 0px ;
  font-size: small;
  display: flex;
  justify-content: space-between;
+ 
 }
 
 .projects a {
