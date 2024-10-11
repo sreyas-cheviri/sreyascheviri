@@ -5,13 +5,13 @@ function updateTimer() {
     
     // Get hours, minutes, and seconds
     let hours = now.getHours();
-    const minutes = String(now.getMinutes()).padStart(2, '0');
-    const seconds = String(now.getSeconds()).padStart(2, '0');
+    const minutes = String(now.getMinutes());
+    const seconds = String(now.getSeconds());
     
     // Determine AM/PM and convert to 12-hour format
     const amPm = hours >= 12 ? 'PM' : 'AM';
     hours = hours % 12 || 12;  // Convert 24-hour to 12-hour format (0 becomes 12)
-    hours = String(hours).padStart(2, '0');  // Add leading zero if needed
+    hours = String(hours);  // Add leading zero if needed
     
     // Format the time as HH:MM:SS AM/PM
     const timeString = `${hours}:${minutes}:${seconds} ${amPm}`;
