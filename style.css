@@ -53,17 +53,21 @@ ul li {
     margin: 0.5rem 0;
 }
 ul li span {
+  font-weight: bold;
+  font-size: medium;
+  color: #000000;
+}
+.experience li{
     background-color:rgb(154, 153, 153);
     padding: 8px;
     border-radius: 5px;
-    color: #000000;
-    font-weight: 500;
-    font-size: medium;
-}
-.experience li{
- font-size: small;
- display: flex;
- justify-content: space-between;
+    color: #000000a3;
+    font-weight: bold;
+    /* font-weight: 500; */
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    
  
 }
 
