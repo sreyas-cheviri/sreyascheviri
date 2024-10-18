@@ -3,7 +3,7 @@ body{
     box-sizing: border-box;
     max-width: 712px;
     margin: 10px auto 10px auto;
-    padding: 50px 20px 50px 20px;
+    padding: 20px 20px 40px 20px;
     background: #141414;
     font-family: sans-serif;
     color: rgba(255, 255, 255, 0.812);
@@ -14,6 +14,9 @@ body{
 header{
     display: flex;
     gap: 20px;
+    border:1px solid rgba(128, 128, 128, 0.192) ;
+    padding: 10px;
+    border-radius: 5px;
 
 }
 header img{
@@ -34,16 +37,23 @@ nav a:hover{
     text-decoration-style: wavy;
 }
 nav{
+    
     font-size: medium;
     margin-top: 20px;
+    margin-bottom:25px;
     display: flex;
     gap: 12px;
+    justify-content: center;
     align-items: center;
 }
 section {
+    border:1px solid rgba(128, 128, 128, 0.192) ;
+    padding: 10px;
+    border-radius: 5px;
     line-height: 1.4;
-    margin: 50px 0;
+    margin: 20px 0;
   }
+
   ul {
     list-style:none;
     padding: 0;
@@ -58,7 +68,7 @@ ul li span {
   color: #000000;
 }
 .experience li{
-    background-color:rgb(154, 153, 153);
+    background-color:rgb(255, 255, 255);
     padding: 8px;
     border-radius: 5px;
     color: #000000a3;
@@ -78,11 +88,11 @@ ul li span {
 }
 .projects span{
     text-decoration: none;
-    background-color:rgb(154, 153, 153);
+    background-color:rgb(255, 255, 255);
 }
 .projects span:hover{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(107, 107, 107);
 }
 
 
@@ -100,7 +110,7 @@ ul li span {
    color: rgba(185, 33, 33, 0.818);
 }
 .projects li{
-    background-color:rgb(154, 153, 153);
+    background-color:rgb(255, 255, 255);
     padding: 8px;
     border-radius: 5px;
     color: #000000;
@@ -108,18 +118,17 @@ ul li span {
 }
 
 @media only screen and (max-width: 450px) {
-    nav{
-        margin-right: 40px;
-    }
+    
     h1 {
         font-size: 20px;
         line-height: 0;
       }
-      nav{
+    nav{
         font-size: medium;
         margin-top: 20px;
         display: flex;
         gap: 12px;  
         align-items: center;
+        justify-content: center;
     }
 }
