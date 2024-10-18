@@ -33,8 +33,9 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    text-decoration: underline;
-    text-decoration-style: wavy;
+    
+    background-color: rgb(93, 93, 93);
+    padding: 2.5px; border-radius: 2.5px;
 }
 nav{
     
