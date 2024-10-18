@@ -34,8 +34,7 @@ nav a{
 }
 nav a:hover{
     
-    background-color: rgb(93, 93, 93);
-    padding: 2.5px; border-radius: 2.5px;
+  text-decoration: underline;
 }
 nav{
     
