@@ -40,7 +40,11 @@ nav{
     
     font-size: medium;
     margin-top: 20px;
+<<<<<<< HEAD
     margin-bottom:25px;
+=======
+    margin-bottom: 40px;
+>>>>>>> 1d2c58bb0c6b80795208e9ab6a69d8a5187ee3c5
     display: flex;
     gap: 12px;
     justify-content: center;
