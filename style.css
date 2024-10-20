@@ -2,8 +2,8 @@ body{
     padding: 0;
     box-sizing: border-box;
     max-width: 712px;
-    margin: 10px auto 10px auto;
-    padding: 20px 20px 40px 20px;
+    margin: 30px auto 30px auto;
+    padding: 10px 10px 10px 10px;
     background: #141414;
     font-family: sans-serif;
     color: rgb(255, 255, 255);
@@ -16,8 +16,8 @@ header{
     gap: 20px;
     border:1px solid rgba(128, 128, 128, 0.192) ;
     padding: 10px;
-    border-radius: 5px;
-
+    align-items: center;
+    border-radius: 5px;background: #0e0e0e;
 }
 header img{
     border-radius: 5px;
@@ -52,6 +52,7 @@ section {
     border-radius: 5px;
     line-height: 1.4;
     margin: 20px 0;
+    background: #0e0e0e;
   }
 
   ul {
@@ -118,7 +119,9 @@ ul li span {
 }
 
 @media only screen and (max-width: 450px) {
-    
+    body{
+        margin: 20px 4px 20px 4px;
+    }
     h1 {
         font-size: 20px;
         line-height: 0;
