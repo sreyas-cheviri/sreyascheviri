@@ -19,9 +19,27 @@ header{
     padding: 10px;
     align-items: center;
     border-radius: 5px;background: #0e0e0e;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.381);
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.381); */
   
 }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap; /* Allow chips to wrap to the next line */
+    gap: 5px; /* Space between chips */
+  }
+  
+  .chip {
+    font-weight: 500;
+    background-color: #242424; /* Light purple background */
+    color: #ffffff; /* Text color */
+    padding: 5px 10px; /* Padding for the chip */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+    font-size: 13px; /* Font size */
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
 header img{
     border-radius: 5px;
 }
@@ -55,7 +73,7 @@ section {
     border-radius: 5px;
     line-height: 1.4;
     margin: 20px 0;
-    background: #0e0e0e;box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.381);
+    background: #0e0e0e;
   }
 
   ul {
