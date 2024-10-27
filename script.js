@@ -42,3 +42,17 @@ setInterval(updateTimer, 1000);
 
 // Initial call to display the time right away
 updateTimer();
+
+function randomizeBentoSizes() {
+    const items = document.querySelectorAll('.bento-item');
+  
+    items.forEach(item => {
+      // Randomly set a flex-basis for different sizes
+      const size = Math.floor(Math.random() * 100) + 100; // Random size from 100px to 200px
+      item.style.flex = `1 1 ${size}px`; // Set flex-grow, flex-shrink, and base size
+    });
+  }
+  
+  // Call the function on page load
+  window.onload = randomizeBentoSizes;
+  
