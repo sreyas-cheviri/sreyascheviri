@@ -138,6 +138,9 @@ ul li span {
     color: #000000;
     font-weight: 500;
 }
+.about p{
+  font-size: 14px;
+}
 
 @media only screen and (max-width: 450px) {
     body{
