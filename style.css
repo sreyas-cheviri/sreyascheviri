@@ -1,107 +1,109 @@
-body{
-    padding: 0;
-    box-sizing: border-box;
-    max-width: 712px;
-    margin: 30px auto 30px auto;
-    padding: 10px 10px 10px 10px;
-    background: #141414;
-    font-family: sans-serif;
-    color: rgb(255, 255, 255);
-    border: 1px solid rgba(128, 128, 128, 0.192);
-    border-radius: 5px;
-    min-height: 95vh;
+body {
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 44.5rem; /* 712px */
+  margin: 1.875rem auto; /* 30px */
+  padding: 0.625rem; /* 10px */
+  background: #141414;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  border: 0.063rem solid rgba(128, 128, 128, 0.192); /* 1px */
+  border-radius: 0.313rem; /* 5px */
+  min-height: 95vh;
 }
 
-header{
-    display: flex;
-    gap: 20px;
-    border:1px solid rgba(128, 128, 128, 0.192) ;
-    padding: 10px;
-    align-items: center;
-    border-radius: 5px;background: #0e0e0e; 
+header {
+  display: flex;
+  gap: 1.25rem; /* 20px */
+  border: 0.063rem solid rgba(128, 128, 128, 0.192); /* 1px */
+  padding: 0.625rem; /* 10px */
+  align-items: center;
+  border-radius: 0.313rem; /* 5px */
+  background: #0e0e0e;
 }
 
-  .skills {
-    display: flex;
-    flex-wrap: wrap; /* Allow chips to wrap to the next line */
-    gap: 5px; /* Space between chips */
-  }
-  
-  .chip {
-    font-weight: 500;
-    background-color: #242424; /* Light purple background */
-    color: #ffffff; /* Text color */
-    padding: 5px 10px; /* Padding for the chip */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
-    font-size: 13px; /* Font size */
-    white-space: nowrap; /* Prevent text from wrapping */
-  }
-  .chip:hover{
-    background-color: #3b3b3b;
-  }
-  
-header img{
-    border-radius: 5px;
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.313rem; /* 5px */
 }
+
+.chip {
+  font-weight: 500;
+  background-color: #242424;
+  color: #ffffff;
+  padding: 0.313rem 0.625rem; /* 5px 10px */
+  border-radius: 0.313rem; /* 5px */
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1); /* 2px 4px */
+  font-size: 0.813rem; /* 13px */
+  white-space: nowrap;
+}
+
+.chip:hover {
+  background-color: #3b3b3b;
+}
+
+header img {
+  border-radius: 0.313rem; /* 5px */
+}
+
 h1 {
-    font-size: 24px;
-    line-height: 0;
-  }
-
-nav a{
-    color: rgb(129, 128, 128);
-    text-underline-offset: 8px;
-    text-decoration: none;
+  font-size: 1.5rem; /* 24px */
+  line-height: 0;
 }
-nav a:hover{
-    
+
+nav a {
+  color: rgb(129, 128, 128);
+  text-underline-offset: 0.5rem; /* 8px */
+  text-decoration: none;
+}
+
+nav a:hover {
   text-decoration: underline;
 }
-nav{
-    
-    font-size: medium;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-    align-items: center;
-}
-section {
-    border:1px solid rgba(128, 128, 128, 0.192) ;
-    padding: 10px;
-    border-radius: 5px;
-    line-height: 1.4;
-    margin: 20px 0;
-    background: #0e0e0e;
-  }
 
-  ul {
-    list-style:none;
-    padding: 0;
+nav {
+  font-size: 1rem; /* medium */
+  margin: 1.25rem 0; /* 20px */
+  display: flex;
+  gap: 0.75rem; /* 12px */
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  border: 0.063rem solid rgba(128, 128, 128, 0.192); /* 1px */
+  padding: 0.625rem; /* 10px */
+  border-radius: 0.313rem; /* 5px */
+  line-height: 1.4;
+  margin: 1.25rem 0; /* 20px */
+  background: #0e0e0e;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 ul li {
-    margin: 0.5rem 0;
+  margin: 0.313rem 0; /* 0.5rem */
 }
+
 ul li span {
   font-weight: bold;
-  font-size: medium;
+  font-size: 1rem; /* medium */
   color: #000000;
 }
-.experience li{
-    background-color:rgb(255, 255, 255);
-    padding: 8px;
-    border-radius: 5px;
-    color: #000000a3;
-    font-weight: bold;
-    /* font-weight: 500; */
-    font-size: small;
-    display: flex;
-    justify-content: space-between;
-    
- 
+
+.experience li {
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem; /* 8px */
+  border-radius: 0.313rem; /* 5px */
+  color: #000000a3;
+  font-weight: bold;
+  font-size: 0.875rem; /* small */
+  display: flex;
+  justify-content: space-between;
 }
 
 .projects a {
@@ -109,55 +111,61 @@ ul li span {
   font-weight: bold;
   text-decoration: none;
 }
-.projects span{
-    text-decoration: none;
-    background-color:rgb(255, 255, 255);
-}
-.projects span:hover{
-    text-decoration: none;
-    color: rgb(107, 107, 107);
+
+.projects span {
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
 }
 
-
-#contact  a{
-    text-decoration: none;
-    color: white;
-    font-size: small;
-    gap: 10px;
-}
-#contact li{
-    display: flex;
-    gap: 14px;
-}
-#contact li:hover{
-   color: rgba(185, 33, 33, 0.818);
-}
-.projects li{
-    background-color:rgb(255, 255, 255);
-    padding: 8px;
-    border-radius: 5px;
-    color: #000000;
-    font-weight: 500;
-}
-.about p{
-  font-size: 14px;
+.projects span:hover {
+  text-decoration: none;
+  color: rgb(107, 107, 107);
 }
 
-@media only screen and (max-width: 450px) {
-    body{
-        margin: 20px 4px 20px 4px;
-    }
-    h1 {
-        font-size: 20px;
-        line-height: 0;
-      }
-    nav{
-        font-size: medium;
-        margin-top: 20px;
-        display: flex;
-        gap: 12px;  
-        align-items: center;
-        justify-content: center;
-    }
+#contact a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.75rem; /* small */
+  gap: 0.625rem; /* 10px */
 }
 
+#contact li {
+  display: flex;
+  gap: 0.875rem; /* 14px */
+}
+
+#contact li:hover {
+  color: rgba(185, 33, 33, 0.818);
+}
+
+.projects li {
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem; /* 8px */
+  border-radius: 0.313rem; /* 5px */
+  color: #000000;
+  font-weight: 500;
+}
+
+.about p {
+  font-size: 0.875rem; /* 14px */
+}
+
+@media only screen and (max-width: 28.125rem) { /* 450px */
+  body {
+      margin: 1.25rem 0.25rem; /* 20px 4px */
+  }
+
+  h1 {
+      font-size: 1.25rem; /* 20px */
+      line-height: 0;
+  }
+
+  nav {
+      font-size: 1rem; /* medium */
+      margin-top: 1.25rem; /* 20px */
+      display: flex;
+      gap: 0.75rem; /* 12px */
+      align-items: center;
+      justify-content: center;
+  }
+}
