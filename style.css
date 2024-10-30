@@ -125,17 +125,18 @@ ul li span {
 #contact a {
   text-decoration: none;
   color: white;
-  font-size: 0.75rem; /* small */
-  gap: 0.625rem; /* 10px */
+  font-size:30px;
 }
 
-#contact li {
+
+#contact ul{
   display: flex;
-  gap: 0.875rem; /* 14px */
+  gap: 20px;
+  margin-left: 10px;
 }
 
-#contact li:hover {
-  color: rgba(185, 33, 33, 0.818);
+#contact a:hover {
+  color: #3b3b3b;
 }
 
 .projects li {
@@ -150,7 +151,7 @@ ul li span {
   font-size: 0.875rem; /* 14px */
 }
 
-@media only screen and (max-width: 28.125rem) { /* 450px */
+@media only screen and (max-width: 450px) { /* 450px */
   body {
       margin: 1.25rem 0.25rem; /* 20px 4px */
   }
