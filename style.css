@@ -21,7 +21,10 @@ header {
   border-radius: 0.313rem; /* 5px */
   background: #0e0e0e;
 }
-
+img{
+  border-radius: .313rem;
+  border: 1px solid rgba(0, 0, 0, 0.492);
+}
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -110,6 +113,7 @@ ul li span {
   color: rgb(0, 0, 0);
   font-weight: bold;
   text-decoration: none;
+  text-align: left;
 }
 
 .projects span {
@@ -145,6 +149,8 @@ ul li span {
   border-radius: 0.313rem; /* 5px */
   color: #000000;
   font-weight: 500;
+  display: flex;
+  gap: 10px;
 }
 
 .about p {
