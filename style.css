@@ -30,7 +30,11 @@ img{
   flex-wrap: wrap;
   gap: 0.313rem; /* 5px */
 }
-
+.desc{
+  font-size: 0.875rem; 
+  font-weight: 500;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .chip {
   font-weight: 500;
   background-color: #242424;
@@ -155,6 +159,7 @@ ul li span {
 
 .about p {
   font-size: 0.875rem; /* 14px */
+  
 }
 
 @media only screen and (max-width: 450px) { /* 450px */
