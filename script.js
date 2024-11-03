@@ -45,75 +45,26 @@ setInterval(updateTimer, 1000);
 // Initial call to display the time right away
 updateTimer();
 
-function randomizeBentoSizes() {
-    const items = document.querySelectorAll('.bento-item');
+
+//light theme
+const toggleButton = document.getElementById('theme-toggle');
+const body = document.body;
+
+// Check for saved theme in local storage
+if (localStorage.getItem('theme') === 'light') {
+  body.classList.add('light-theme');
+}
+
+// Event listener for toggle button
+toggleButton.addEventListener('click', () => {
+  body.classList.toggle('light-theme');
   
-    items.forEach(item => {
-      // Randomly set a flex-basis for different sizes
-      const size = Math.floor(Math.random() * 100) + 100; // Random size from 100px to 200px
-      item.style.flex = `1 1 ${size}px`; // Set flex-grow, flex-shrink, and base size
-    });
+  // Save the theme in local storage
+  if (body.classList.contains('light-theme')) {
+    localStorage.setItem('theme', 'light');
+    toggleButton.textContent = '☀️'; 
+  } else {
+    localStorage.setItem('theme', 'dark');
+    toggleButton.textContent = '🌙'; 
   }
-  
-
-
-//   const apiUrl = 'https://images-api.nasa.gov/search?q=space&media_type=image';
-
-//   async function fetchRandomSpaceImage() {
-//       try {
-//           // Fetch images from NASA's API
-//           const response = await fetch(apiUrl);
-//           const data = await response.json();
-  
-//           // Check if any items are returned
-//           if (!data.collection.items || data.collection.items.length === 0) {
-//               console.log("No space images found.");
-//               return;
-//           }
-  
-//           // Select a random image from the list
-//           const images = data.collection.items;
-//           const randomIndex = Math.floor(Math.random() * images.length);
-//           const image = images[randomIndex];
-  
-//           // Get the image URL and metadata
-//           const imageUrl = image.links[0].href;
-//           const title = image.data[0].title;
-//           const description = image.data[0].description;
-  
-//           // Update HTML elements with the random image data
-//           document.getElementById('space').src = imageUrl;
-//           document.getElementById('image-title').textContent = title;
-//           document.getElementById('image-description').textContent = description;
-  
-//       } catch (error) {
-//           console.error('Error fetching space images:', error);
-//       }
-//   }
-  
-//   // Call the function when the document is loaded
-//   document.addEventListener('DOMContentLoaded', fetchRandomSpaceImage);
-  
-// const apiUrl = 'https://api.jikan.moe/v4/random/anime'; // For random anime information
-
-// async function fetchRandomAnimeImage() {
-//     try {
-//         const response = await fetch(apiUrl);
-//         const data = await response.json();
-
-//         // Get the anime details
-//         const imageUrl = data.data.images.jpg.large_image_url;
-//         const title = data.data.title || "Random Anime";
-
-//         // Update HTML elements with the random anime data
-//         document.getElementById('space').src = imageUrl;
-//         document.getElementById('anime-title').textContent = title;
-
-//     } catch (error) {
-//         console.error('Error fetching anime images:', error);
-//     }
-// }
-
-// // Call the function when the document is loaded
-// document.addEventListener('DOMContentLoaded', fetchRandomAnimeImage);
-
+});
