@@ -1,4 +1,4 @@
 # personal website  
 ### sreyascheviri 2024
 ### minimal UI design 
-## built with raw HTML_CSS_JS only
+## A sleek, minimalistic portfolio showcasing my work, crafted solely with HTML, CSS, and JavaScript.
