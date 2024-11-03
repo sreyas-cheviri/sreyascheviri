@@ -125,7 +125,16 @@ ul li span {
 .projects a:hover{
   background: #000;
 }
-
+#more{
+  margin-top: 20px;
+  font-size: medium;
+  background-color:#0e0e0e;
+  /* padding: 20px; */
+  font-weight: 300;
+}
+#more:hover{
+  text-decoration: underline;
+}
 .projects li{
   display: flex;
   flex-direction: column;
@@ -172,6 +181,7 @@ h5 {
   padding: 10px;
   background: #141414;
   width: fit-content;
+  font-weight: 300;
   border-radius: 10px;
   margin:  5px 0px;
   color: rgb(255, 255, 255);
