@@ -188,3 +188,29 @@ h5 {
 #user:hover{
   content: url("/pic2023.png");
 }
+
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 6px; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* color of the track */
+  border-radius: 1px; /* round corners */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1c1c1c; /* color of the scroll thumb */
+  border-radius: 1px; /* round corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* color of the thumb on hover */
+}
+
+/* For Firefox */
+.scrollable-element {
+  scrollbar-width: thin; /* 'auto' or 'thin' */
+  scrollbar-color: #1c1c1c #000000; /* thumb color and track color */
+}
