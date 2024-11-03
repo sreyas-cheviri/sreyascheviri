@@ -42,7 +42,7 @@ nav {
 }
 
 nav a {
-  color: rgb(100, 100, 100);
+  color: rgb(217, 215, 215);
   text-underline-offset: 0.5rem;
   text-decoration: none;
   /* background: #0e0e0e; */
@@ -271,6 +271,9 @@ h5 {
 
 .light-theme section {
   background: #e0e0e0; /* Light sections */
+}
+.light-theme nav a {
+  color: #000; /* Light sections */
 }
 .light-theme .experience li {
   color: #000;
