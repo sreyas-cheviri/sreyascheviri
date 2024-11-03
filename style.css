@@ -256,20 +256,9 @@ h5 {
 
 /* Adjust styles for the light theme */
 .light-theme header {
-  background: #f0f0f0; /* Light header */
+  background: #e0e0e0; /* Light header */
 }
 
-.light-theme section ul li{
-  /* background: #e0e0e0; */
-}
-
-.light-theme nav a {
-  /* color: #000000;  */
-}
-.light-theme nav a {
-  /* background:#f0f0f0; */
-  /* color: #000000;  */
-}
 
 #theme-toggle{
   background: none;
@@ -303,7 +292,6 @@ h5 {
   color: #ffffff;
   background-color: #0f0f0f;/* Light sections */
 }
-
 .light-theme .chip {
   background-color: #696969; /* Light chip background */
 }
