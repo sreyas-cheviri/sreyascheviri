@@ -50,7 +50,7 @@ updateTimer();
 const toggleButton = document.getElementById('theme-toggle');
 const body = document.body;
 
-// Check for saved theme in local storage
+// // Check for saved theme in local storage
 if (localStorage.getItem('theme') === 'light') {
   body.classList.add('light-theme');
 }

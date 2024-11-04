@@ -249,15 +249,6 @@ h5 {
 }
 
 
-.light-theme {
-  background: #ffffff; /* Light background */
-  color: #000000; /* Dark text */
-}
-
-/* Adjust styles for the light theme */
-.light-theme header {
-  background: #e0e0e0; /* Light header */
-}
 
 
 #theme-toggle{
@@ -269,37 +260,43 @@ h5 {
   font-size: large;
 }
 
+.light-theme {
+  background: #ffffff; 
+  color: #000000; 
+}
+.light-theme header {
+  background: #e0e0e0; 
+}
 .light-theme section {
-  background: #e0e0e0; /* Light sections */
+  background: #e0e0e0; 
 }
 .light-theme nav a {
-  color: #000; /* Light sections */
+  color: #000;
 }
 .light-theme .experience li {
   color: #000;
-  background: #ffffff; /* Light sections */
+  background: #ffffff; 
 }
 .light-theme .projects li {
   color: #000;
-  background: #ffffff; /* Light sections */
+  background: #ffffff; 
 }
 .light-theme .desc  {
   color: #000;
-  /* background: #ffffff; Light sections */
 }
 .light-theme .projects a {
   color: #ffffff;
-  background-color: #696969;/* Light sections */
+  background-color: #696969;
 }
 .light-theme .projects a:hover {
   color: #ffffff;
-  background-color: #0f0f0f;/* Light sections */
+  background-color: #0f0f0f;
 }
 .light-theme .chip {
-  background-color: #696969; /* Light chip background */
+  background-color: #696969; 
 }
 .light-theme .chip:hover {
-  background-color: #515151; /* Light chip background */
+  background-color: #515151;
 }
 .light-theme #contact ul {
   background-color: #ffffff;
