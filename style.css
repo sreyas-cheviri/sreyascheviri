@@ -45,11 +45,7 @@ nav a {
   color: rgb(217, 215, 215);
   text-underline-offset: 0.5rem;
   text-decoration: none;
-  /* background: #0e0e0e; */
   font-size: medium;
-  /* padding: 1px 2px; */
-  /* border-radius: 5px; */
-  /* gap: 1px; */
 }
 
 nav a:hover {
@@ -116,6 +112,7 @@ ul li span {
   padding: 10px;
   border-radius: 10px;
   color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.051);
   font-size: 0.875rem;
 }
 
@@ -146,6 +143,7 @@ ul li span {
 }
 .projects li{
   display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.051);
   flex-direction: column;
 }
 
@@ -156,6 +154,7 @@ ul li span {
 }
 
 #contact ul {
+  border: 1px solid rgba(255, 255, 255, 0.051);
   display: flex;
   gap: 20px;
   background-color: #141414;
@@ -191,6 +190,7 @@ h5 {
   background: #141414;
   width: fit-content;
   font-weight: 300;
+  border: 1px solid rgba(255, 255, 255, 0.051);
   border-radius: 10px;
   margin:  5px 0px;
   color: rgb(255, 255, 255);
@@ -276,10 +276,12 @@ h5 {
 .light-theme .experience li {
   color: #000;
   background: #ffffff; 
+  border: 1px solid rgba(0, 0, 0, 0.256);
 }
 .light-theme .projects li {
   color: #000;
   background: #ffffff; 
+  border: 1px solid rgba(0, 0, 0, 0.256);
 }
 .light-theme .desc  {
   color: #000;
@@ -300,6 +302,7 @@ h5 {
 }
 .light-theme #contact ul {
   background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.256);
 }
 .light-theme #contact ul li a {
   color: #696969; 
@@ -316,4 +319,5 @@ h5 {
   color: #000000; 
   background-color: #ffffff;
   box-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.256);
 }
