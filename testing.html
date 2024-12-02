@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="portfolio website showcasing my skills, projects." />
+  <meta name="keywords" content="portfolio, minimal design, minimalism, web development, projects, skills, sreyascheviri, sreyas, Designer, Developer, frontend developer," />
+  <meta name="author" content="sreyas" />
+  <meta property="og:title" content="sreyas cheviri" />
+  <meta property="og:description" content="My portfolio website." />
+  <meta property="og:type" content="website" />
+  <title>sreyas cheviri</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="LogoMoji.png" />
+  <script src="https://kit.fontawesome.com/2ca57fca93.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="max-w-xl mx-auto  p-2 bg-gray-900 text-gray-200 min-h-[95vh] font-[Poppins,sans-serif]">
+    <header class="flex gap-5 p-2 items-center rounded-md bg-gray-800 ">
+    <img id="user" class="rounded-full border border-gray-800" height="60" width="60" src="face.gif" alt="srey">
+    <div>
+      <div>
+        <h1 class="text-xl mb-5">Sreyas Cheviri</h1>
+      </div>
+      <p class="leading-[1]">Developer & Designer</p>
+    </div>
+    <button id="theme-toggle" aria-label="Toggle theme" class="cursor-pointer mx-auto">☀️</button> 
+  </header>
+
+  <nav class="text-base my-5 flex gap-3 justify-center items-center">
+    <a href="/index.html" class="text-gray-400">Home</a>
+    <a href="/works.html">Work</a>
+    <a href="play.html">Play</a>
+    <a href="https://drive.google.com/file/d/1rS2YhEoOofxPVERusLfP9rioEXjZB2_y/view?usp=sharing">Resume</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <section class="about p-2 rounded-md bg-gray-800 my-5">
+      <h1>About</h1>
+      <p class="text-sm">
+         - Final year Information Science Engineering student from <span><a href="https://en.wikipedia.org/wiki/Bangalore" target="_blank" class="italic text-red-600 no-underline">Bangalore, India.</a></span><br>
+         - Currently learning, designing, and building full-stack applications.<br>
+         - I love building things &#128296;.
+      </p>
+    </section>
+
+    <section class="experience p-2 rounded-md bg-gray-800 my-5">
+      <h1>Experience</h1>
+      <ul class="list-none p-0">
+        <li class="bg-gray-900 p-2 rounded-md text-white border border-white/[0.051] text-sm">
+          Web Developer - intern, VisionAstraa <br><span class="text-xs text-gray-600">Aug 2024 - Oct 2024</span>
+        </li>
+        <li class="bg-gray-900 p-2 rounded-md text-white border border-white/[0.051] text-sm mt-2">
+          Data analyst - intern, EY-global <br><span class="text-xs text-gray-600">Oct 2023 - Dec 2023</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="about p-2 rounded-md bg-gray-800 my-5">
+      <h1>Skills</h1>
+      <p class="skills flex flex-wrap gap-1">
+        <span class="chip bg-gray-800 text-white px-2 py-1 rounded-md text-xs shadow">HTML/CSS</span>
+        <span class="chip bg-gray-800 text-white px-2 py-1 rounded-md text-xs shadow">JavaScript</span>
+        <span class="chip bg-gray-800 text-white px-2 py-1 rounded-md text-xs shadow">JAVA</span>
+        <span class="chip bg-gray-800 text-white px-2 py-1 rounded-md text-xs shadow">React.js</span>
+        <span class="chip bg-gray-800 text-white px-2 py-1 rounded-md text-xs shadow">Express.js</span>
+        <span class="chip bg-gray-800 text-white px-2 py-1 rounded-md text-xs shadow">Node.js</span>
+        <span class="chip bg-gray-800 text-white px-2 py-1 rounded-md text-xs shadow">Tailwind</span>
+        <span class="chip bg-gray-800 text-white px-2 py-1 rounded-md text-xs shadow">Figma</span>
+        <span class="chip bg-gray-800 text-white px-2 py-1 rounded-md text-xs shadow">MySQL/SQL</span>
+        <span class="chip bg-gray-800 text-white px-2 py-1 rounded-md text-xs shadow">Data Structures & Algorithms</span>
+        <span class="chip bg-gray-800 text-white px-2 py-1 rounded-md text-xs shadow">Python</span>
+        <span class="chip bg-gray-800 text-white px-2 py-1 rounded-md text-xs shadow">Postman</span>
+        <span class="chip bg-gray-800 text-white px-2 py-1 rounded-md text-xs shadow">git/github</span>
+        <span class="chip bg-gray-800 text-white px-2 py-1 rounded-md text-xs shadow">MongoDB</span>
+        <span class="chip bg-gray-800 text-white px-2 py-1 rounded-md text-xs shadow">OOPs</span>
+      </p>
+    </section>
+
+    <section class="projects p-2 rounded-md bg-gray-800 my-5">
+      <h1>Projects</h1>
+      <ul class="list-none p-0">
+        <li class="projects-item bg-gray-900 p-2 rounded-md text-white border border-white/[0.051] flex flex-col gap-2 my-1">
+          <div><a href="" target="_blank" class="font-medium bg-gray-700 text-white px-2 py-1 rounded-md shadow text-sm no-underline">Reso: <i class="fa-solid fa-link"></i> <div id="online" class="w-1 h-1 bg-green-500 rounded-full inline-block ml-2"></div></a> <a href=""><i class="fa-brands fa-github"></i></a> </div>
+          <div class="desc text-white text-xs">A platform where student & teacher share study resources - with an admin panel control.</div>
+        </li>
+        <li class="projects-item bg-gray-900 p-2 rounded-md text-white border border-white/[0.051] flex flex-col gap-2 my-1">
+         <div> <a href="https://github.com/sreyas-cheviri/SQLLANG" target="_blank" class="font-medium bg-gray-700 text-white px-2 py-1 rounded-md shadow text-sm no-underline">SQL-LANG: <i class="fa-solid fa-link"></i></a> <a href="https://github.com/sreyas-cheviri/SQLLANG" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+          <div class="desc text-white text-xs">LLM project - User can ask questions in natural language and the system generates answers by converting those questions to an SQL query and then executing that query on MySQL database.</div>
+        </li>
+        <li class="projects-item bg-gray-900 p-2 rounded-md text-white border border-white/[0.051] flex flex-col gap-2 my-1">
+          <div> <a href="https://sreyascheviri.vercel.app" target="_blank" class="font-medium bg-gray-700 text-white px-2 py-1 rounded-md shadow text-sm no-underline">Portfolio: <i class="fa-solid fa-link"></i><div id="online" class="w-1 h-1 bg-green-500 rounded-full inline-block ml-2"></div></a> <a href="https://github.com/sreyas-cheviri/sreyascheviri" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+          <div class="desc text-white text-xs">A sleek, minimalistic portfolio showcasing my work, crafted solely with HTML, CSS, and JavaScript.</div>
+        </li>
+      </ul>
+      <a id="more" href="works.html" class="my-5 text-sm font-light bg-gray-800 no-underline">More projects....</a>
+    </section>
+  </main>
+</body>
+
+</html>
