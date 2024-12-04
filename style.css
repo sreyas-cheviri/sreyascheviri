@@ -105,7 +105,6 @@ section {
   padding: 0 4px;
 }
 .rowart{
- 
   display: flex;
   flex-wrap: wrap;
   padding: 20px 4px;
@@ -117,6 +116,11 @@ section {
   margin-top: 8px;
   vertical-align: middle; 
   max-width: 100%; /* Ensures images don’t overflow */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.arts img:hover {
+  box-shadow: 0 0 1px 2px rgba(255, 250, 195, 0.644); /* Light blue glow */
+  transform: scale(1.4); /* Increase the size by 10% */
 }
 
 /* For larger screens, you can have 3 images per row */
