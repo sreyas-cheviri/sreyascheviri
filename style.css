@@ -26,8 +26,14 @@ header img {
   border: 1px solid rgb(40, 40, 40);
 }
 
-h1 {
+.name{
   font-size: 1.5rem;
+  line-height: 0;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 1.3rem;
+  /* font-weight:500; */
   line-height: 0;
   margin-bottom: 20px;
 }
@@ -93,6 +99,41 @@ section {
   font-size: smaller;
   /* text-align: justify; */
 }
+.arts {
+  flex: 33%;
+  max-width: 30%;
+  padding: 0 4px;
+}
+.rowart{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 4px;
+  justify-content: center;
+}
+
+.arts img {
+  border-radius: 2px;
+  margin-top: 8px;
+  vertical-align: middle; 
+  max-width: 100%; /* Ensures images don’t overflow */
+}
+
+/* For larger screens, you can have 3 images per row */
+@media (min-width: 768px) {
+  .arts img {
+      flex: 0 0 31%; /* For larger screens, each image takes up 31% of the width (3 images per row) */
+  }
+}
+
+/* For smaller screens (like mobile), one image per row */
+@media (max-width: 480px) {
+  .arts img {
+      flex: 0 0 100%; /* For mobile screens, each image takes up 100% of the width (1 image per row) */
+  }
+}
+
+
 
 ul {
   list-style: none;
