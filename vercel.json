@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/:slug",
-      "destination": "/:slug.html",
-      "permanent": true
-    }
-  ]
-}
