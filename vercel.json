@@ -1,8 +1,9 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/:slug",
-      "destination": "/:slug.html"
+      "destination": "/:slug.html",
+      "permanent": true
     }
   ]
 }
