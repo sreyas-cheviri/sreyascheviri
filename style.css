@@ -52,12 +52,16 @@ nav a {
   text-underline-offset: 0.5rem;
   text-decoration: none;
   font-size: medium;
+  padding: 5px; 
+
 }
 
 nav a:hover {
-  /* background: #4f4f4f53;
-   */
-   text-decoration: underline;
+  background: #4f4f4f53;
+  padding: 5px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease-out;
+   /* text-decoration: underline; */
 }
 
 section {
