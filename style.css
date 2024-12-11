@@ -71,7 +71,11 @@ section {
   margin: 1.25rem 0;
   background: #0e0e0e;
 }
-
+#workpics{
+  border-radius: 5px;
+  height: 45px;
+  width: 45px;
+}
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -80,7 +84,9 @@ section {
 
 .desc {
   color: #ffffff;
-  font-size: 0.875rem;
+  font-size: 0.8rem;
+  margin-top: 15px;
+  margin-left: 8px;
   /* font-weight: 200; */
 }
 
@@ -236,6 +242,14 @@ ul li span {
   width:5px;
    height:5px;
     background-color: rgb(2, 255, 2);
+     border-radius: 50%; 
+     display: inline-block;
+     margin-left: 10px;
+}
+#offline{
+  width:5px;
+   height:5px;
+    background-color: rgb(255, 124, 2);
      border-radius: 50%; 
      display: inline-block;
      margin-left: 10px;
