@@ -62,9 +62,12 @@ toggleButton.addEventListener('click', () => {
   // Save the theme in local storage
   if (body.classList.contains('light-theme')) {
     localStorage.setItem('theme', 'light');
-    toggleButton.textContent = '☀️'; 
+    toggleButton.innerHTML = '<i class="fa-solid fa-moon"></i>'; 
+    toggleButton.style.color = 'black';
+   
   } else {
     localStorage.setItem('theme', 'dark');
-    toggleButton.textContent = '🌙'; 
+    toggleButton.innerHTML = '<i class="fa-solid fa-sun"></i>';
+    toggleButton.style.color = 'white';  
   }
 });
