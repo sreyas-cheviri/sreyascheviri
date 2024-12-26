@@ -72,9 +72,10 @@ section {
   background: #0e0e0e;
 }
 #workpics{
-  border-radius: 5px;
-  height: 45px;
-  width: 45px;
+  border-radius: 3px;
+  height: 37px;
+  width: 37px;
+  border: 1px solid rgba(40, 40, 40, 0.36);
 }
 .skills {
   display: flex;
@@ -92,7 +93,7 @@ section {
 
 .chip {
   font-weight: 500;
-  background-color: #242424;
+  background: #202020;
   color: #ffffff;
   padding: 0.313rem 0.625rem;
   border-radius: 0.313rem;
@@ -181,7 +182,7 @@ ul li span {
   font-weight: 500;
   background-color: #141414;
   color: #ffffff;
-  padding: 0.313rem 0.625rem;
+  padding: 0.213rem 0.525rem;
   border-radius: 0.313rem;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
   font-size: 0.813rem;
@@ -189,18 +190,19 @@ ul li span {
   text-decoration: none;
 }
 .projects a:hover{
-  background: #000;
+  background: #ffffff;
+  color: rgb(0, 0, 0)
 }
 #more{
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: medium;
   background-color:#0e0e0e;
-  /* padding: 20px; */
   font-weight: 300;
 }
 #more:hover{
   text-decoration: underline;
+  color: #fff;
 }
 .projects li{
   display: flex;
@@ -241,7 +243,7 @@ ul li span {
 #online{
   width:5px;
    height:5px;
-    background-color: rgb(2, 255, 2);
+    background-color: rgb(8, 144, 8);
      border-radius: 50%; 
      display: inline-block;
      margin-left: 10px;
@@ -249,7 +251,7 @@ ul li span {
 #offline{
   width:5px;
    height:5px;
-    background-color: rgb(255, 124, 2);
+    background-color: rgb(205, 109, 20);
      border-radius: 50%; 
      display: inline-block;
      margin-left: 10px;
@@ -328,7 +330,7 @@ h5 {
   border: none;
   align-content: end;
   margin-left: auto;
-  font-size: large;
+  font-size: x-small;
 }
 
 .light-theme {
@@ -336,10 +338,10 @@ h5 {
   color: #000000; 
 }
 .light-theme header {
-  background: #e0e0e0; 
+  background: #b9b9b9; 
 }
 .light-theme section {
-  background: #e0e0e0; 
+  background: #b9b9b9; 
 }
 .light-theme nav a {
   color: #000;
@@ -358,8 +360,8 @@ h5 {
   color: #000;
 }
 .light-theme .projects a {
-  color: #ffffff;
-  background-color: #696969;
+  color: black;
+  background: #b9b9b9; 
 }
 .light-theme .projects a:hover {
   color: #ffffff;
@@ -383,7 +385,7 @@ h5 {
 }
 .light-theme #more  {
   color: #000000; 
-  background-color: #e0e0e0;
+  background: #b9b9b9; 
   box-shadow: none;
 }
 .light-theme h5 {
