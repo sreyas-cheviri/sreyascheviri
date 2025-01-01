@@ -17,13 +17,14 @@ header {
   gap: 1.25rem;
   padding: 0.625rem;
   align-items: center;
+  justify-content: center;
   border-radius: 0.313rem;
   background: #0e0e0e;
 }
 
 header img {
   border-radius: 20px;
-  /* border: 1px solid rgb(40, 40, 40); */
+ 
 }
 
 .name{
@@ -292,12 +293,34 @@ h5 {
   }
 }
 
-#user{
-  transition-duration:  30ms ease-out;
+#user {
+  transition-duration: 30ms ease-out;
+  height: 50px;  /* Set consistent size */
+  width: 50px;   /* Set consistent size */
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* Ensures circle shape */
+  overflow: hidden; /* Ensures content stays within circle */
 }
-#user:hover{
-  content: url("/pic2023.png");
+
+#user:hover {
+  content: url("/pic2023.png");  /* Hover image */
+  font-size: 0; /* Remove font size when the image appears */
 }
+
+#user img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image fits within the circle */
+}
+
 
 
 /* For WebKit browsers (Chrome, Safari) */
