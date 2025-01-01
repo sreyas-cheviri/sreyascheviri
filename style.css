@@ -22,18 +22,17 @@ header {
 }
 
 header img {
-  border-radius: 50%;
-  border: 1px solid rgb(40, 40, 40);
+  border-radius: 20px;
+  /* border: 1px solid rgb(40, 40, 40); */
 }
 
 .name{
   font-size: 1.3rem;
   line-height: 1;
-  /* margin-bottom: 20px; */
+  font-weight: 600;
 }
 h1 {
-  font-size: 1.3rem;
-  /* font-weight:500; */
+
   line-height: 0;
   margin-bottom: 20px;
 }
@@ -110,6 +109,11 @@ section {
   font-size: smaller;
   /* text-align: justify; */
 }
+
+.about a{
+  color: #bbbbbb;
+}
+
 .arts {
   flex: 33%;
   max-width: 30%;
@@ -213,7 +217,7 @@ ul li span {
 #contact a {
   text-decoration: none;
   color: #b8b8b8;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 #contact ul {
@@ -337,6 +341,11 @@ h5 {
   background: #ffffff; 
   color: #000000; 
 }
+
+.light-theme .about a{
+  color: #2e2e2e;
+}
+
 .light-theme header {
   background: #b9b9b9; 
 }
@@ -378,7 +387,7 @@ h5 {
   border: 1px solid rgba(0, 0, 0, 0.256);
 }
 .light-theme #contact ul li a {
-  color: #696969; 
+  color: #494949;
 }
 .light-theme #contact ul li a:hover {
   color: #000000; 

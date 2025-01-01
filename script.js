@@ -3,6 +3,12 @@
 
 function updateTimer() {
   // Get the current time and date
+
+  const timerElement = document.getElementById('timer');
+  if (!timerElement) {
+    console.warn("Timer element not found in the DOM.");
+    return;
+  }
   const now = new Date();
   
   // Get hours, minutes, and seconds
