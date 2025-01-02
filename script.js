@@ -50,7 +50,12 @@ setInterval(updateTimer, 1000);
 // Initial call to display the time right away
 updateTimer();
 
+document.addEventListener("DOMContentLoaded", () => {
+  const themeToggleBtn = document.getElementById("theme-toggle");
 
+  // Apply color based on theme from localStorage
+  const theme = localStorage.getItem('theme') || 'black';
+  themeToggleBtn.style.color = theme === 'light' ? 'black' : 'white';});
 
 //light theme
 const toggleButton = document.getElementById('theme-toggle');
