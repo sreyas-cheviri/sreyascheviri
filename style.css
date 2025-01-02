@@ -112,6 +112,9 @@ section {
 }
 
 .about a{
+  color: #868686;
+}
+.about a:hover{
   color: #bbbbbb;
 }
 
@@ -140,6 +143,7 @@ section {
 }
 .artp{
   color: #ffffff;
+  font-size: smaller;
 }
 .light-theme .artp {
   color: #000;
@@ -367,6 +371,9 @@ h5 {
 
 .light-theme .about a{
   color: #2e2e2e;
+}
+.light-theme .about a:hover{
+  color: #000000;
 }
 
 .light-theme header {
